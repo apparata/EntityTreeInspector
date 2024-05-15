@@ -6,6 +6,10 @@ A SwiftUI window that lets the user inspect a RealityKit entity tree.
 
 See LICENSE file for license information.
 
+## What Does It Look Like?
+
+![Screenshot of Entity Tree Inspector](https://github.com/apparata/EntityTreeInspector/assets/384210/906f0be1-d7bc-41e2-94bb-2f2ce8de9c5c)
+
 ## How To
 
 First add the window scene to your SwiftUI app.
