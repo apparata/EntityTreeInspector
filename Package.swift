@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "EntityTreeInspector",
-    platforms: [.visionOS(.v1)],
+    platforms: [.macOS(.v14), .iOS(.v17), .visionOS(.v1)],
     products: [
         .library(name: "EntityTreeInspector", targets: ["EntityTreeInspector"]),
     ],
