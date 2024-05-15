@@ -9,6 +9,10 @@ public struct EntityTreeWindow: SwiftUI.Scene {
 
     public let rootProvider: () -> Entity?
 
+    public init(rootProvider: @escaping () -> Entity?) {
+        self.rootProvider = rootProvider
+    }
+
     public var body: some SwiftUI.Scene {
         WindowGroup(id: Self.id) {
             EntityTree(rootProvider: rootProvider)
