@@ -1,6 +1,8 @@
 # EntityTreeInspector
 
-A SwiftUI window that lets the user inspect a RealityKit entity tree.
+A SwiftUI window that lets the user inspect a snapshot of a RealityKit entity tree.
+
+To refresh the snapshot, use pull to refresh.
 
 ## License
 
